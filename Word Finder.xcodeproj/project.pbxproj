@@ -31,6 +31,7 @@
 		66533228189106CF00188CA7 /* Word_Finder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Word_Finder.1; sourceTree = "<group>"; };
 		6653322F189106FB00188CA7 /* WordFind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordFind.cpp; sourceTree = "<group>"; };
 		66533230189106FB00188CA7 /* WordFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordFind.h; sourceTree = "<group>"; };
+		6653323218913D8E00188CA7 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		66533225189106CF00188CA7 /* Word Finder */ = {
 			isa = PBXGroup;
 			children = (
+				6653323218913D8E00188CA7 /* words.txt */,
 				66533226189106CF00188CA7 /* main.cpp */,
 				66533228189106CF00188CA7 /* Word_Finder.1 */,
 				6653322F189106FB00188CA7 /* WordFind.cpp */,
