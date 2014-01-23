@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		66533227189106CF00188CA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66533226189106CF00188CA7 /* main.cpp */; };
 		66533229189106CF00188CA7 /* Word_Finder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 66533228189106CF00188CA7 /* Word_Finder.1 */; };
+		66533231189106FB00188CA7 /* WordFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6653322F189106FB00188CA7 /* WordFind.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		66533223189106CF00188CA7 /* Word Finder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Word Finder"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66533226189106CF00188CA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		66533228189106CF00188CA7 /* Word_Finder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Word_Finder.1; sourceTree = "<group>"; };
+		6653322F189106FB00188CA7 /* WordFind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordFind.cpp; sourceTree = "<group>"; };
+		66533230189106FB00188CA7 /* WordFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordFind.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				66533226189106CF00188CA7 /* main.cpp */,
 				66533228189106CF00188CA7 /* Word_Finder.1 */,
+				6653322F189106FB00188CA7 /* WordFind.cpp */,
+				66533230189106FB00188CA7 /* WordFind.h */,
 			);
 			path = "Word Finder";
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66533231189106FB00188CA7 /* WordFind.cpp in Sources */,
 				66533227189106CF00188CA7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
